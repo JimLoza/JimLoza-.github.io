@@ -13,3 +13,15 @@ export const GifGridItem = ( {title, url} ) => {
         </div>
     )
 }
+
+/*  
+Configurar Enzyme y configurar enzyme to json
+
+    3. Debe de mostart el componente correctamente
+    shallow
+    wrapper
+    wrapper .toMarchSnapshot()
+
+
+*/
+ 
