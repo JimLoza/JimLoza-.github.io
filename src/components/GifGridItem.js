@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 export const GifGridItem = ( {title, url} ) => {
     
@@ -14,14 +16,9 @@ export const GifGridItem = ( {title, url} ) => {
     )
 }
 
-/*  
-Configurar Enzyme y configurar enzyme to json
 
-    3. Debe de mostart el componente correctamente
-    shallow
-    wrapper
-    wrapper .toMarchSnapshot()
-
-
-*/
+GifGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+}
  
